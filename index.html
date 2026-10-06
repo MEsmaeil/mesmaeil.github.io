@@ -5,14 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Your Name | .NET Developer</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Hello, I'm Morteza </h1>
+<header class="header">
+    <div class="container">
+        <a href="#" class="logo">Your Name<span>.</span></a>
 
-    <p>
-        I'm a .NET developer building reliable and maintainable software.
-    </p>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="eyebrow">
+                    .NET DEVELOPER
+                </p>
+
+                <h1>
+                    Building software
+                    <span>that lasts.</span>
+                </h1>
+
+                <p class="description">
+                    I design and build reliable backend systems,
+                    APIs, and distributed applications with C# and .NET.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        View my work
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Let's talk
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="glow"></div>
+
+                <div class="code-window">
+
+                    <div class="window-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <pre><code><span class="keyword">public sealed class</span>
+<span class="type">Developer</span>
+{
+    <span class="keyword">public async</span>
+    Task&lt;Result&gt; BuildAsync()
+    {
+        <span class="keyword">return await</span>
+            CreateSomethingGreat();
+    }
+}</code></pre>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
 
 </body>
 </html>
